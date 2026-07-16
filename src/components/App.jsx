@@ -1,9 +1,14 @@
 import Form from "./Form";
 function App() {
   return (
-    <div>
-      <h2>Service Form</h2>
-      <Form />
+    <div className="app-shell">
+      <div className="card">
+        <div className="app-header">
+          <span className="app-icon">🛠️</span>
+          <h2 className="app-title">Service Form</h2>
+        </div>
+        <Form />
+      </div>
     </div>
   );
 }
